@@ -1,0 +1,30 @@
+#video-section {
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 20px;
+  height: 50px;
+  margin-left: 240px;
+}
+.list-item li {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(241, 241, 242, 0.083);
+  padding: 3px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+}
+.list-item li:hover {
+  background-color: rgba(241, 241, 242, 0.297);
+}
+.card {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 33%;
+  height: 400px;
+  margin: 5px;
+  z-index: -1;
+}
+#card-section {
+  margin-left: 240px;
+  padding-top: 130px;
+}
