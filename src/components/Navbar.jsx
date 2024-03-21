@@ -9,20 +9,20 @@ import {
   List,
 } from "react-bootstrap-icons";
 
-function Navbar({ toggleDrawer }) {
+function Navbar({ toggleDrawer, open }) {
   return (
     <>
       <div id="navbar-main" className="fixed-top">
         {/* <div className="d-flex align-items-center justify-content-between flex-wrap"> */}
         <div className="nav-content">
-          <div className="d-flex align-items-center justify-content-between">
+          <div className="d-flex align-items-center justify-content-between ">
             <button
               className="side-menu-icon ms-1 pe-auto"
               onClick={() => toggleDrawer(true)}
             >
               <List color="#fff" size={30} />
             </button>
-            <div className="img-test">
+            <div className="img-test mt-1">
               <img src={imgs} alt="som" />
             </div>
           </div>

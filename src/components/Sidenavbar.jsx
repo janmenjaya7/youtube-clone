@@ -27,15 +27,19 @@ import {
   ExclamationCircle,
 } from "react-bootstrap-icons";
 import Box from "@mui/material/Box";
+import VideoSection from "./videoSection/VideoSection";
+import ShortsSection from "./shorts/ShortsSection";
+import IconSection from "./videoSection/IconSection";
 
-function Sidenavbar({ toggleDrawer, open }) {
+function Sidenavbar({ handleDrawerOpen, open }) {
+  console.log("open", open);
   return (
     <>
       {open ? (
         <Box
           sx={{ width: 240, backgroundColor: "#0f0f0f" }}
           role="presentation"
-          onClick={() => toggleDrawer(false)}
+          onClick={() => handleDrawerOpen(false)}
         >
           <div id="side-nav-section">
             <div
@@ -276,7 +280,9 @@ function Sidenavbar({ toggleDrawer, open }) {
             </div>
           </div>
         </Box>
-      ) : null}
+      ) : (
+        <IconSection />
+      )}
     </>
   );
 }

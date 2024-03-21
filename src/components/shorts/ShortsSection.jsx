@@ -176,6 +176,82 @@ function ShortsSection() {
             </div>
           </div>
         </div>
+        <div className="row g-0">
+          <div className="col-sm-4 col-lg-4 col-xl-4 col-6 ">
+            <div className="card ">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/035/080/829/non_2x/mint-and-pink-new-year-youtube-thumbnail-social-media-design-idea-template-editor_template.jpeg"
+                alt="img2"
+                width={"100%"}
+                height={"200px"}
+              />
+              <div className="d-flex flex-row p-3">
+                <img
+                  src="https://assets.weforum.org/sf_account/image/rA_TF_tkRNKjxk_gzlr9UlBXMhuoPZNeRaRO7-ys_xw.jpg"
+                  alt="somthing"
+                  className="rounded-circle img-icon"
+                />
+                <div className="text-light title-section px-3">
+                  <p className="fw-bold">
+                    The AI War Has Begun! Every Google I/O AI Announcement
+                    Supercut
+                  </p>
+                  <p className="name-text">Sundar Pichai</p>
+                  <p className="name-text">7.35m Views. 4 month ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4 col-lg-4 col-xl-4 col-6">
+            <div className="card">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/577e89279f74568b96604476/1698242321019-YHYT2Y2T7HFW78A1191J/Get+Real+Estate+-+Podcast+Intros+%28horizontal%29+%28YouTube+Thumbnail%29+%281%29.png"
+                alt="img2"
+                width={"100%"}
+                height={"200px"}
+              />
+              <div className="d-flex flex-row p-3">
+                <img
+                  src="https://m.media-amazon.com/images/S/amzn-author-media-prod/7i4p455hk67skr4ksvj1gmui05._SY450_CR0%2C0%2C450%2C450_.jpg"
+                  alt="somthing"
+                  className="rounded-circle img-icon"
+                />
+                <div className="text-light title-section px-3">
+                  <p className="fw-bold">
+                    watch with family personal finance masterclass sharan review
+                  </p>
+                  <p className="name-text">Ankur warikoo</p>
+                  <p className="name-text">1.35m Views. 1 month ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4 col-lg-4 col-xl-4 col-6">
+            <div className="card">
+              <img
+                src="https://marketplace.canva.com/EAE9DVUCJuQ/1/0/1600w/canva-purple-modern-podcast-guest-interview-episode-youtube-thumbnail-V4kZ5jwpRyk.jpg"
+                alt="img2"
+                width={"100%"}
+                height={"200px"}
+              />
+              <div className="d-flex flex-row p-3">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_kEkulZGxJmZvRE2Bx0UYQBS6jb3jUdTLxDSOxLFA=s900-c-k-c0x00ffffff-no-rj"
+                  alt="somthing"
+                  className="rounded-circle img-icon"
+                />
+                <div className="text-light title-section px-3">
+                  <p className="fw-bold">
+                    Suresh Raina Worldcup Jeet ki Kahani Mr Cricket The Ranveer
+                    Show हिंदी
+                  </p>
+                  <p className="name-text">Ranveer</p>
+                  <p className="name-text">5.35m Views. 1 month ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

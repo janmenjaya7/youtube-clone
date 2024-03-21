@@ -1,9 +1,16 @@
 import React from "react";
 import img from "../../assets/shouts/navshort.svg";
-import you from "../../assets/shouts/you.svg";
-import { HouseDoorFill, CollectionPlay } from "react-bootstrap-icons";
+import {
+  HouseDoorFill,
+  CollectionPlay,
+  CollectionPlayFill,
+} from "react-bootstrap-icons";
+import IconSection from "./IconSection";
+import { useState } from "react";
 
-function VideoSection() {
+function VideoSection({ open }) {
+  // const [show, setShow] = useState(true);
+
   return (
     <>
       <div
@@ -21,28 +28,11 @@ function VideoSection() {
         <li>Lectures</li>
         <li>Live</li>
         <li>Prodacast</li>
+        <li>Practice</li>
+        <li>JavaScript</li>
+        <li>Thought</li>
       </div>
       <div id="card-section" className="d-flex  flex-row">
-        <div id="icons" className="g-0">
-          <div className="side-icon-bar d-flex flex-column">
-            <div className="icons-section d-flex flex-column ">
-              <HouseDoorFill size={20} color="#fff" />
-              <span className=" text-light">Home</span>
-            </div>
-            <div className="icons-section  d-flex flex-column ">
-              <img src={img} alt="som" width={20} height={20} color="#fff" />
-              <span className=" text-light">Shorts</span>
-            </div>
-            <div className="icons-section  d-flex flex-column ">
-              <CollectionPlay size={20} color="#fff" />
-              <span className=" text-light">Subscriptions</span>
-            </div>
-            <div className="icons-section  d-flex flex-column ">
-              <img src={you} alt="sa" width={20} height={20} />
-              <span className="text-light">You</span>
-            </div>
-          </div>
-        </div>
         <div id="video-list" className="d-flex  flex-wrap">
           <div className="row g-0">
             <div className="col-sm-4">
@@ -59,7 +49,7 @@ function VideoSection() {
                     class="time-duration"
                     style={{
                       position: "absolute",
-                      top: "170px",
+                      top: "190px",
                       right: "10px",
                     }}
                   >
@@ -70,7 +60,7 @@ function VideoSection() {
                   <img
                     src="https://yt3.googleusercontent.com/W-LbQKXkf3HJsvau1PC8jnOoryI_7AjdGGORmmpWUO4Bdb3Alem-X4fasmV43aRXRydCy3gyAig=s900-c-k-c0x00ffffff-no-rj"
                     alt="somthing"
-                    className="rounded-circle img-icon"
+                    className="rounded-circle img-icon mx-2"
                   />
                   <div className="text-light title-section px-2">
                     <p className="fw-bold">
@@ -96,7 +86,7 @@ function VideoSection() {
                     class="time-duration d-flex  align-items-center"
                     style={{
                       position: "absolute",
-                      top: "170px",
+                      top: "190px",
                       right: "10px",
                     }}
                   >
@@ -109,7 +99,7 @@ function VideoSection() {
                     alt="somthing"
                     className="rounded-circle img-icon"
                   />
-                  <div className="text-light title-section px-2 ">
+                  <div className="text-light title-section px-2">
                     <p className="fw-bold">
                       First 20 hours how to learn anything
                     </p>
@@ -234,6 +224,8 @@ function VideoSection() {
           </div>
         </div>
       </div>
+
+      {/* {open ? null : <IconSection />} */}
     </>
   );
 }
